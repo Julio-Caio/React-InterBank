@@ -1,0 +1,163 @@
+@media (max-width: 660px) {
+    .offcanvas {
+        max-width: 55%;
+        background: rgb(54, 54, 54);
+    }
+
+    #icon-menu{
+        color: #fff;
+        margin-left: 92%;
+        padding: 8px;
+        border-radius: 8px;
+        max-width: 50px;
+        min-width: 30px;
+        min-height: 30px;
+        transition: all ease-in 0.15s;
+    }
+
+    div[class="icon-"]{
+        font-size: 10px;
+        margin-left: -5%;
+    }
+
+    .main-icons svg{
+        display: none;
+    }
+
+    div[class="icon-"]{
+        font-size: 10px;
+        margin-bottom: 25%;
+        padding: 10%;
+        border: 0.5px solid #fff;
+        border-radius: 8px;
+    }
+
+    .icon-logout {
+        margin-left: -5%;
+        position: fixed;
+        bottom: 2.5%;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 661px) and (max-width: 850) {
+    .offcanvas {
+        max-width: 42.5%;
+        background: rgb(54, 54, 54);
+    }
+
+    #icon-menu{
+        color: #fff;
+        margin-left: 92%;
+        padding: 8px;
+        border-radius: 8px;
+        max-width: 50px;
+        min-width: 35px;
+        min-height: 35px;
+        transition: all ease-in 0.15s;
+    }
+
+    .main-icons a{
+        font-size: 14px;
+    }
+
+    .main-icons .icon-home {
+        margin-left: -12.5%
+    } 
+    
+    .main-icons .icon-dashboard {
+        margin-left: -8.5%;
+    }
+
+    .icon-logout {
+        margin-left: -5%;
+        position: fixed;
+        bottom: 2.5%;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 1400px) {
+    button {
+        float: left;
+        margin-top: 1.8%;
+        min-height: 40px;
+        min-width: 50px;
+        max-width: 90px;
+        border-radius: 4px;
+        height: 3.8%;
+        padding: 0.5% 0.5% 0.5% 0.5%;
+        border: none;
+        background: rgba(58, 58, 58, 0.151);
+    }
+    
+    .offcanvas {
+        max-width: 22.5%;
+        background: rgb(54, 54, 54);
+    }
+    
+    
+    .offcanvas-body {
+        text-align: center;
+    }
+    
+    ul {
+        max-height: 80vh;
+    }
+    
+    
+    
+    .main-icons {
+        margin-left: -32.5%
+    }
+    
+    .main-icons .icon-home {
+        margin-left: -.5%;
+        padding: 5px;
+    }
+    
+    .main-icons .icon-dashboard {
+        margin-left: 5%;
+        padding: 10%;
+    }
+    
+    #icon-menu{
+        color: #fff;
+        margin-left: 92%;
+        padding: 6px;
+        border-radius: 8px;
+        max-width: 50px;
+        min-width: 35px;
+        min-height: 35px;
+        transition: all ease-in 0.15s;
+    }
+    
+    .icon-dashboard {
+        margin-bottom: 80%;
+        padding-bottom: 5.5%;
+        color: #fff;
+    }
+    
+    #icon-menu:hover{
+        background-color: #fff;
+        color:  black;
+        cursor: pointer;
+    }
+    
+    .icon-logout {
+        position: fixed;
+        bottom: 12.5px;
+    }
+    
+}
+
+div[class^="icon-"] {
+    min-width: 100px;
+    max-width: 250px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}

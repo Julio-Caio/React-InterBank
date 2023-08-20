@@ -1,0 +1,37 @@
+.App {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, #069784 0%, rgba(18, 18, 18, 80.00) 100%);;
+}
+
+h2, h4, hr, svg {
+    color: #FFF;
+    width: 60%;
+}
+
+h4, svg {
+    display: inline-block;
+}
+
+#eye {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    margin-left: calc(50% - 80%);
+    cursor: pointer;
+}
+
+#button {
+    min-width: 150px;
+    max-width: 240px;
+    margin-left: 0;
+    color: #FFF;
+    border: 0.5px solid whitesmoke;
+    height: 50px;
+    font-size: 20px;
+    flex-shrink: 0;
+
+    border-radius: 8px;
+    background: #B03131;
+}
