@@ -4,7 +4,7 @@
 
 ### So, what's this application all about?
 
-### Application developed by me using React.js and TypeScript, utilizing Node.js for backend construction. The purpose of this application is to enhance my skills in React and Object-Oriented Programming.
+Application developed by me using React.js and TypeScript, utilizing Node.js for backend construction. The purpose of this application is to enhance my skills in React and Object-Oriented Programming.
 
 ## Technologies Used:
 
